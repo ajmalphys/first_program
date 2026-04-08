@@ -18,7 +18,6 @@
 # #o/p : error
 #---------------------------------------------------------
 '''AND : returns True only if both statements are True'''
-from doctest import run_docstring_examples
 
 #---------------------------------------------------------
 # print(True and True)
@@ -71,7 +70,7 @@ from doctest import run_docstring_examples
 '''Two MEMBERSHIP operators are there: IN and NOTIN'''
 #-----------------------------------------
 # s='python'
-# print('t' in s) #checks whether 't' is there in 'python' or not #o/p : Truw
+# print('t' in s) #checks whether 't' is there in 'python' or not #o/p : True
 # print('t' not in s) #o/p : False #checks the statement 't' is not in 's'. thats false here bcoz 't' is there in 's'
 # print('z' not in s) #o/p : True
 #--------------------------------
@@ -131,11 +130,11 @@ from doctest import run_docstring_examples
 # print(print(f'After swapping a={a} and b={b}'))
 #--------------------------------------------------
 #Ask the user for two values and swap the numbers
-a=int(input('Enter the 1 st number : '))
-b=int(input('Enter the 2 nd number : '))
-print(f'Before Swapping, 1 st number = {a} and 2 nd number ={b}')
-c=a
-a=b
-b=c
-print(f'After Swapping, 1 st number = {a} and 2 nd number ={b}')
+# a=int(input('Enter the 1 st number : '))
+# b=int(input('Enter the 2 nd number : '))
+# print(f'Before Swapping, 1 st number = {a} and 2 nd number ={b}')
+# c=a
+# a=b
+# b=c
+# print(f'After Swapping, 1 st number = {a} and 2 nd number ={b}')
 
