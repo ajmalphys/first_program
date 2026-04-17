@@ -152,6 +152,133 @@ else:
 # Enter a number : 28
 # 28 is a perfect number
 #--------------------------------------------------------------------------------------------------
+'''Qn.13: Sum of digits'''
+# n=input('Enter a number : ')
+# sum=0
+# l=len(n)
+# p=int(n)
+# for i in range(l):
+#     sum+=p%10
+#     p//=10
+# print(f'Sum of digits : {sum}')
+#--------------------------------------------------------------------------------------------------
+'''Qn.14:Reverse a Number (using for)
+Input: 1234
+Output: 4321'''
+# n=input('Enter a number : ')
+# rev='' #empty string--it is equivalent to assigning a zero while dealing with int
+# for i in n:
+#     rev=i+rev
+# print(rev)
+#output-----------------
+# Enter a number : 123
+# 321
+#--------------------------------------------------------------------------------------------------
+'''Qn.15: Palindrome Number
+Check if number is same when reversed
+'''
 
+# n=input('Enter a number : ')
+# rev=''
+# for i in n:
+#     rev=i+rev
+# if(n==rev):
+#     print('Palindrome')
+# else:
+#     print('Not palindrome')
+#outpu---------------
+# Enter a number : 121
+# Palindrome
+# Enter a number : 123
+# Not palindrome
+#--------------------------------------------------------------------------------------------------
+'''Qn.16: Armstrong Number Check
+Example: 153
+(1³ + 5³ + 3³ = 153)
+'''
 
+# n=input('Enter a number : ')
+# sum=0
+# count=0
+# for i in n:
+#     count+=1
+# for i in n:
+#     sum+=int(i)**count
+# if(int(n)==sum):
+#     print('Armstrong number')
+# else:
+#     print('Not an armstrong number')
+#output-----------------
+# Enter a number : 153
+# Armstrong number
+# Enter a number : 255
+# Not an armstrong number
+# Enter a number : 1634
+# Armstrong number
+#--------------------------------------------------------------------------------------------------
+
+'''Qn.17: Prime Number Check
+Input: number
+Output: Prime / Not Prime'''
+
+# n=int(input('Enter a number: '))
+# c=0 #a counting variable to show calculate the number of factors other than 1 and the same number itself
+# for i in range(2,n): #range is set from 2 to n so that the LL=2 & UL=n-1. this excludes the common divisors of prime nos(1 & same no:)
+#     if n%i==0:
+#         c+=1
+# if c==0:
+#     print('Prime number')
+# else:
+#     print('Not a prime number')
+
+#output-----------
+# Enter a number: 7
+# Prime number
+# Enter a number: 125
+# Not a prime number
+#--------------------------------------------------------------------------------------------------
+'''Qn.18: Print Numbers Divisible by 7 (1–100)
+Print only multiples of 7'''
+
+# for i in range(1,100): #since 98 is the number below 100 which is divisible by 7. it doesnt matter to use 100 or 101
+#     if i%7==0:
+#         print(i,end=' ')
+#output-------------
+#7 14 21 28 35 42 49 56 63 70 77 84 91 98
+#--------------------------------------------------------------------------------------------------
+'''Qn.19:Sum of Squares of Digits
+Input: 123 → Output: 1² + 2² + 3² = 14
+'''
+# n=input('Enter a number : ') #inputing the number as string
+# sum=0
+# for i in n:
+#     sum+=int(i)**2
+# print(f'Sum of squares of digits : {sum}')
+#output-----------------
+# Enter a number : 123
+# Sum of squares of digits : 14
+#--------------------------------------------------------------------------------------------------
+'''Qn.20: Check Perfect Number
+A number whose sum of proper divisors (excluding itself) equals the number
+Example: 6 → 1+2+3 = 6'''
+
+# n=int(input('Enter a number : '))
+# sum=0
+# for i in range(1,n):
+#     if n%i==0:
+#         sum+=i
+# if sum==n:
+#     print('Perfect number')
+# else:
+#     print('Not a perfect number')
+#output
+# Enter a number : 6
+# Perfect number
+# Enter a number : 28
+# Perfect number
+# Enter a number : 496
+# Perfect number
+# Enter a number : 29
+# Not a perfect number
+#--------------------------------------------------------------------------------------------------
 

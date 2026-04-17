@@ -241,7 +241,7 @@ so i modified it to accomodate any digit number'''
 # Its Harshad number
 #----------------------------------------------------------------------------
 '''Qn.19 : Perfect number'''
-''' A numner whose sum of proper divisors (excluding itself) equals the number'''
+''' A number whose sum of proper divisors (excluding itself) equals the number'''
 ''' example : 6--- 
 Divisors : 1,2,3
 1+2+3=6
@@ -260,6 +260,9 @@ if not equal, print Not a perfect number'''
 #     print('Perfect number')
 # else:
 #     print('Not perfect')
+# #output:
+# # Enter a number : 6
+# # Perfect number
 #----------------------------------------------------------------------------
 '''Qn.20 : Strong Number
    A number whose sum of factorials of digits equals the number.
@@ -284,9 +287,9 @@ if not equal, print Not a perfect number'''
 #     print('Strong number')
 # else:
 #     print('Not a strong number')
-# o/p||||||||||||||||||||||||||||||||||||
-# Enter a number : 40585
-# Strong number
+# # o/p||||||||||||||||||||||||||||||||||||
+# # Enter a number : 40585
+# # Strong number
 
 #----------------------------------------------------------------------------
 '''Qn.21 : Automorphic Number
@@ -324,7 +327,7 @@ if not equal, print Not a perfect number'''
 # Enter a number : 123
 # The given number has 3 digits
 # Not an Automorphic number
-#---------------------------------
+# ---------------------------------
 # Enter a number : 625
 # The given number has 3 digits
 # Its an Automorphic number
@@ -350,18 +353,18 @@ if not equal, print Not a perfect number'''
 #     print('Yes, Neon Number')
 # else:
 #     print('Not a neon number')
-'''O/P:'''
-# Enter a number : 526454545
-# Not a neon number
-# ----------------------------------------
-# Enter a number : 9
-# Yes, Neon Number
-# ----------------------------------------
-# Enter a number : 0
-# Yes, Neon Number
-# ----------------------------------------
-# Enter a number : 1
-# Yes, Neon Number
+# '''O/P:'''
+# # Enter a number : 526454545
+# # Not a neon number
+# # ----------------------------------------
+# # Enter a number : 9
+# # Yes, Neon Number
+# # ----------------------------------------
+# # Enter a number : 0
+# # Yes, Neon Number
+# # ----------------------------------------
+# # Enter a number : 1
+# # Yes, Neon Number
 #----------------------------------------------------------------------------
 '''Qn.23 : Spy Number
    A number where the sum of digits equals the product of digits.
@@ -420,7 +423,7 @@ if not equal, print Not a perfect number'''
 # Enter a number : 123
 # there are 3 digits
 # Its not a Disarium number
-#-----------------------------------------
+# -----------------------------------------
 # Enter a number : 135
 # there are 3 digits
 # its a Disarium number
@@ -458,4 +461,11 @@ if not equal, print Not a perfect number'''
 #         print(f'its a Duck number with {zc} zeroes')
 #     else:
 #         print('Not a duck number. Reason: No zeroes are there')
+# #output
+# #Enter a number: 1203
+# #its a Duck number with 1 zeroes
+# # Enter a number: 0123
+# # Not a duck number. Reason: First digit is zero
+
+
 #----------------------------------------------------------------------------
