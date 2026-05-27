@@ -20,3 +20,7 @@
 #     for j in range(1,i+1):
 #         print(i,end=' ')
 #     print() #the purpose of this print is to add a new line after each j loop
+
+
+
+

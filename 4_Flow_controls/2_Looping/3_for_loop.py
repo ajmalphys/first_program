@@ -282,3 +282,35 @@ Example: 6 → 1+2+3 = 6'''
 # Not a perfect number
 #--------------------------------------------------------------------------------------------------
 
+'Program to generate prime numbers till the given value'
+
+# n=int(input('Enter the upper limit : '))
+# if n==1:
+#     print('Invalid input')
+# else:
+#     for i in range(2,n+1):
+#         count=0
+#         for j in range(2,i+1):
+#             if i%j==0:
+#                 count+=1
+#             else:
+#                 continue
+#         if count==1:
+#             print(i,end=' ')
+#         else:
+#             continue
+
+#--------------------------------------------------------------------------------------------------
+'''program to generate fibanocci series'''
+
+
+n=int(input('Enter the limit : '))
+a=0
+b=1
+c=0
+print(0,1,end=',')
+for i in range(3,n+1):
+    c=a+b
+    a=b
+    b=c
+    print(c,end=',')

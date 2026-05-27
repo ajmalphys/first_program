@@ -83,6 +83,33 @@ Lets use while loop for this'''
 #         l+=1
 # else:
 #     print('Order is reversed')
+
+# l=int(input('Enter lower limit : '))
+# u=int(input('Enter upper limit : '))
+# k=l
+# if l<u:
+#     print('Odd numbers are:')
+#     while l<u:
+#         if l%2!=0:
+#             print(l,end=' ')
+#         l+=1
+#     print()
+#     print('Even numbers are :')
+#     l=k
+#     while l<u:
+#         if l%2==0:
+#             print(l,end=' ')
+#         l+=1
+# else:
+#     print('The limits are reversed')
+
+#output
+# Enter lower limit : 3
+# Enter upper limit : 30
+# Odd numbers are:
+# 3 5 7 9 11 13 15 17 19 21 23 25 27 29
+# Even numbers are :
+# 4 6 8 10 12 14 16 18 20 22 24 26 28
 #----------------------------------------------------------------------------
 '''Qn.8 : create a multiplication table based on user input'''
 # n=int(input("Enter the number : "))
@@ -91,7 +118,7 @@ Lets use while loop for this'''
 #     print(f'{i}x{n}={i*n}')
 #     i+=1
 #----------------------------------------------------------------------------
-'''Qn.9 : find the sun of n natural numbers'''
+'''Qn.9 : find the sum of n natural numbers'''
 # n=int(input('Enter n : '))
 # i=1
 # s=0

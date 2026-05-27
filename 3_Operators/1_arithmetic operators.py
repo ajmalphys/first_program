@@ -83,7 +83,7 @@
 #2**2 ----->2^2
 #2**3 ----->2^3
 
-a=int(input('Enter the base : '))
-b=int(input('Enter the exponent : '))
-print(f'The result is {a**b}')
+# a=int(input('Enter the base : '))
+# b=int(input('Enter the exponent : '))
+# print(f'The result is {a**b}')
 #---------------------------------------------------------

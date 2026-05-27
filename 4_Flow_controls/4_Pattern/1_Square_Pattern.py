@@ -9,7 +9,11 @@
 #     for j in range(1,4):
 #         print(i, end=' ')
 #     print() #this print is used to print the values of next i loop below the current j loop.
-
+#-------------------------------------
+for i in range(1,4):
+    for j in range(3):
+        print(i,end=' ')
+    print()
 '''
 11111
 22222

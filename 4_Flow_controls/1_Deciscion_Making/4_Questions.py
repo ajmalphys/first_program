@@ -1,3 +1,4 @@
+''''''
 '''Qn:1-- input the marks from the user for 5 subjects out of 100 and calculate the total marks
 also calculate the percentage and print the percentage
  if percentage is 

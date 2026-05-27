@@ -62,10 +62,10 @@
 0 1
 '''
 
-for i in range(6,1,-1): #6-5-4-3-2-1-0
-    for j in range(i):
-        print(j,end=' ')
-    print()
+# for i in range(6,1,-1): #6-5-4-3-2-1-0
+#     for j in range(i):
+#         print(j,end=' ')
+#     print()
 
 '''
 # 0 
@@ -73,12 +73,12 @@ for i in range(6,1,-1): #6-5-4-3-2-1-0
 # 0 2 4
 # 0 3 6 9
 '''
-k=0
-for i in range(1,5):
-    for j in range(i):
-        print(j*k,end=' ')
-    k+=1
-    print()
+# k=0
+# for i in range(1,5):
+#     for j in range(i):
+#         print(j*k,end=' ')
+#     k+=1
+#     print()
 
 '''
 # 1 
@@ -87,12 +87,12 @@ for i in range(1,5):
 # 7  8  9  10
 # 11 12 13 14 15
 '''
-k=1
-for i in range(6):
-    for j in range(i):
-        print(k,end=' ')
-        k+=1
-    print()
+# k=1
+# for i in range(6):
+#     for j in range(i):
+#         print(k,end=' ')
+#         k+=1
+#     print()
 
 '''
 # 1 2 3 4 5 
@@ -102,13 +102,22 @@ for i in range(6):
 # 5 5 5 5 5
 '''
 
-for i in range(1,6):
-    for j in range(i):
-        print(i,end=' ')
-    for k in range(5-i):
-        print(k+i+1,end=' ')
+# for i in range(1,6):
+#     for j in range(i):
+#         print(i,end=' ')
+#     for k in range(5-i):
+#         print(k+i+1,end=' ')
+#
+#     print()
+#======================================
 
-    print()
+# for i in range(1,6):
+#     for j in range(1,6):
+#         if j<i:
+#             print(i,end=' ')
+#         else:
+#             print(j,end=' ')
+#     print()
 
 '''
 # 1 
@@ -117,9 +126,12 @@ for i in range(1,6):
 # 4 3 2 1
 # 5 4 3 2 1
 '''
-for i in range(1,6):
-    k=i
-    for j in range(i):
-        print(k,end=' ')
-        k-=1
-    print()
+# for i in range(1,6):
+#     k=i
+#     for j in range(i):
+#         print(k,end=' ')
+#         k-=1
+#     print()
+
+
+

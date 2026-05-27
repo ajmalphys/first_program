@@ -118,7 +118,8 @@
 # else:
 #     print('Not a triangle')
 #-----------------------------------------------------------------
-'''4. Input from the user. Checks whether the number is positive. If it is positive, further check whether it is even or odd.'''
+'''4. Input from the user. Checks whether the number is positive. If it is positive, 
+further check whether it is even or odd.'''
 
 # n=int(input('Enter a number : '))
 # if n>0:

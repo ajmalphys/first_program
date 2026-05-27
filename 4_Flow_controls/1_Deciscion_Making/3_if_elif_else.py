@@ -48,23 +48,23 @@
 
 #------------------------------------------------------------------------------------------
 '''Qn:3--write a prgram to find the largest among given three numbers'''
-a=int(input('Enter num1 : '))
-b=int(input('Enter num2 : '))
-c=int(input('Enter num3 : '))
-if a==b and a>c:                #24-24-12
-    print(f'{a} is larger')
-elif a==c and a>b:              #24_12_24
-    print(f'{a} is larger')
-elif b==c and b>a:              #12_24_24
-    print(f'{b} is larger')
-elif a>b and a>c:
-    print(f'{a} is larger')
-elif b>a and b>c:
-    print(f'{b} is larger')
-elif c>a and c>b:
-    print(f'{c} is larger')
-else:
-    print('Given numbers are equal')
+# a=int(input('Enter num1 : '))
+# b=int(input('Enter num2 : '))
+# c=int(input('Enter num3 : '))
+# if a==b and a>c:                #24-24-12
+#     print(f'{a} is larger')
+# elif a==c and a>b:              #24_12_24
+#     print(f'{a} is larger')
+# elif b==c and b>a:              #12_24_24
+#     print(f'{b} is larger')
+# elif a>b and a>c:
+#     print(f'{a} is larger')
+# elif b>a and b>c:
+#     print(f'{b} is larger')
+# elif c>a and c>b:
+#     print(f'{c} is larger')
+# else:
+#     print('Given numbers are equal')
 #O/P-----------------------------
 # Enter num1 : 1
 # Enter num2 : 2
