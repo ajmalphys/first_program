@@ -16,23 +16,31 @@ def main():
     img=Image.open('lung_image.jpg')
     st.image(img,width=500)
     age = st.number_input('age')
-    smokes = st.number_input('smokes')
+    smoke = st.number_input('smoke')
     areaq = st.number_input('area quality')
     alcohol = st.number_input('alcohol')
-    feature=[age,smokes,areaq,alcohol]
+    feature=[age,smoke,areaq,alcohol]
     model=pickle.load(open('model_knn.sav','rb'))
     scaler=pickle.load(open('scaler_knn.sav','rb'))
     pred=st.button('predict')
     if pred:
-        result=model.predict(scaler.transform([feature]))
+        result=int(model.predict(scaler.transform([feature]))[0])
         if result==0:
             st.write('not cancer patient')
         else:
             st.write('cancer patient')
 
+        query ="""
+                    INSERT INTO prediction_history
+                    (age,smoke,areaq,alcohol,result)
+                    VALUES (%s,%s,%s,%s,%s)
+                    """
+        values=(age,smoke,areaq,alcohol,result)
+        cursor.execute(query,values)
+        conn.commit()
 
-
-
+        st.success('Data Saved Successfully')
+# cd streamlit_lung
 # cd lung_cancer
 # streamlit run lung_cancer.py          --> to run the streamlit, enter it in terminal
 
